@@ -56,7 +56,7 @@
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     if (!form.checkValidity()) { form.reportValidity(); return; }
-    status.textContent = 'Thank you — your message has been noted. Dr. Kumar typically replies within three working days.';
+    status.textContent = 'Thank you — your message has been noted. Ramjit typically replies within a few working days.';
     status.style.color = '#7a2230';
     form.reset();
   });
