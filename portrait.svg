@@ -25,5 +25,5 @@
     <line x1="232" y1="308" x2="248" y2="308" stroke="#1f242e" stroke-width="4"/>
     <path d="M214 360 q26 18 52 0" fill="none" stroke="#7a4a2f" stroke-width="4" stroke-linecap="round"/>
   </g>
-  <text x="240" y="575" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#f6f1e7" opacity="0.85">Ramjit Kumar</text>
+  <text x="240" y="575" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#f6f1e7" opacity="0.85">Dr. Ramjit Kumar</text>
 </svg>
