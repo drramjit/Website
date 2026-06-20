@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Dr. Ramjit Kumar</title>
+<meta name="description" content="Contact details and enquiry form for Dr. Ramjit Kumar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap site-head__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__mark">RK</span>
+      <span>Dr. Ramjit Kumar<br><small>Sociology · Research</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="publications.html">Publications</a>
+      <a href="research.html">Research</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="cv.html" class="nav__cv">CV</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="eyebrow reveal">Contact</p>
+      <h1 class="reveal">Get in touch</h1>
+      <p class="lede reveal" style="margin-top:1rem;">For doctoral enquiries, collaboration, invited talks, or media comment — the form below reaches me directly.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <form id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+          <button class="btn btn--primary" type="submit">Send message</button>
+          <p class="form-note" id="form-status" role="status" aria-live="polite">This form is front-end only; connect it to your preferred mail handler to receive submissions.</p>
+        </form>
+      </div>
+      <aside class="reveal">
+        <ul class="contact-meta">
+          <li><span class="k">Email</span><a href="mailto:ramjit.kumar@university.edu">ramjit.kumar@university.edu</a></li>
+          <li><span class="k">Office</span><span>Room 214, Department of Sociology, Faculty of Social Sciences</span></li>
+          <li><span class="k">Office hours</span><span>Tuesdays & Thursdays, 3:00–5:00 pm (by appointment)</span></li>
+          <li><span class="k">Postal</span><span>Department of Sociology, University Campus, India</span></li>
+          <li><span class="k">Scholarly profiles</span><span><a href="#">Google Scholar</a> · <a href="#">ORCID</a> · <a href="#">Academia.edu</a></span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Dr. Ramjit Kumar</h4>
+        <p style="font-size:.92rem; max-width:34ch;">Department of Sociology. Researching caste, agrarian change, and the social structure of rural India.</p>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="cv.html">Curriculum Vitae</a></li>
+          <li><a href="mailto:ramjit.kumar@university.edu">Email</a></li>
+          <li><a href="#">Google Scholar</a></li>
+          <li><a href="#">ORCID</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span data-year></span> Dr. Ramjit Kumar. All rights reserved.</span>
+      <span>Built as a scholarly homepage.</span>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

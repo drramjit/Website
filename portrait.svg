@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" role="img" aria-label="Portrait of Dr. Ramjit Kumar">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#243551"/>
+      <stop offset="1" stop-color="#16233a"/>
+    </linearGradient>
+    <linearGradient id="sk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c79b6e"/>
+      <stop offset="1" stop-color="#a87c52"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="600" fill="url(#bg)"/>
+  <g opacity="0.08" stroke="#f6f1e7" stroke-width="1">
+    <line x1="0" y1="150" x2="480" y2="150"/>
+    <line x1="0" y1="300" x2="480" y2="300"/>
+    <line x1="0" y1="450" x2="480" y2="450"/>
+  </g>
+  <circle cx="240" cy="470" r="180" fill="#7a2230" opacity="0.9"/>
+  <g>
+    <path d="M150 470 q90 -60 180 0 v130 h-180 z" fill="#2c2c34"/>
+    <ellipse cx="240" cy="300" rx="92" ry="104" fill="url(#sk)"/>
+    <path d="M150 270 q90 -120 180 0 q6 -90 -90 -96 q-96 6 -90 96z" fill="#1f242e"/>
+    <rect x="186" y="296" width="46" height="30" rx="14" fill="none" stroke="#1f242e" stroke-width="4"/>
+    <rect x="248" y="296" width="46" height="30" rx="14" fill="none" stroke="#1f242e" stroke-width="4"/>
+    <line x1="232" y1="308" x2="248" y2="308" stroke="#1f242e" stroke-width="4"/>
+    <path d="M214 360 q26 18 52 0" fill="none" stroke="#7a4a2f" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="240" y="575" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#f6f1e7" opacity="0.85">Dr. Ramjit Kumar</text>
+</svg>
